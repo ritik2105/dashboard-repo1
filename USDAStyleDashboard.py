@@ -12,7 +12,7 @@ import plotly.express as px
 # In[2]:
 
 
-df = pd.read_csv(r"C:\RITIK\Business Data Analytics\Thesis\ml_results_for_dashboard.csv")
+df = pd.read_csv("ml_results_for_dashboard.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 
 
